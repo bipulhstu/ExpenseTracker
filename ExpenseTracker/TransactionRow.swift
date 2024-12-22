@@ -16,7 +16,7 @@ struct TransactionRow: View {
                 .fill(Color.Icon.opacity(0.3))
                 .frame(width: 44, height: 44)
                 .overlay{
-                    Image(systemName: "text.rectangle.page").foregroundColor(Color.Icon)
+                    Image(systemName: transaction.icon).foregroundColor(Color.Icon)
                 }
 
             VStack (alignment: .leading, spacing: 6) {
